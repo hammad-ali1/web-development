@@ -9,11 +9,11 @@ function handler(event){
             if(value === "X"){
                 this.value = "X";
                 value = "O";
-                msgDiv.innerText = "Player 1 Turn (X)";
+                msgDiv.innerText = "Player 2 Turn (O)";
             }else if(value === "O"){
                 this.value = "O";
                 value = "X";
-                msgDiv.innerText = "Player 2 Turn (O)";
+                msgDiv.innerText = "Player 1 Turn (X)";
             }
         }
         
