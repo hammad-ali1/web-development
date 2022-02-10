@@ -13,7 +13,7 @@ function handler(event){
         2 : 0
     };
     var turns = 0;
-
+    var gameEnded = false;
 
     function checkWinner(player){
         if(player === 'X'){
@@ -89,7 +89,11 @@ function handler(event){
 
     // handler for each individual button / box
     function buttonHandler(event){
+        if(gameEnded)
+            return;
         var result = playGame(this);
+        if(result)
+            gameEnded = true;
         if(result === "X"){
             msgDiv.innerText = "Player 1 Won";
         }else if(result === "O"){
