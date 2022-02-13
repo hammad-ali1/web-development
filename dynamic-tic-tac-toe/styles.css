@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+#grid, #message{
+    width:  200px;
+    margin: auto;
+}
+#message{
+    padding-top: 20px;
+    text-align: center;
+    clear: both;
+    font-weight: 800;
+    font-size: 20px;
+}
+.container{
+    width: 33.33%;
+    margin: auto;
+    margin-top: 10px;
+    float: left;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(36, 23, 219);
+    text-align: center;
+    font-size: 50px;
+}
+.box:hover{
+    box-shadow: 0px 0px 4px blue;
+}
+#gridContainer{
+    position: relative;
+}
+button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}

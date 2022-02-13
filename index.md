@@ -1,5 +1,6 @@
 ## starter codes
 [tic-tac-toe](https://hammad-ali1.github.io/web-development/tic-tac-toe)
+[dynamic-tic-tac-toe](https://hammad-ali1.github.io/web-development/dynamic-tic-tac-toe)
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/hammad-ali1/web-development/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
